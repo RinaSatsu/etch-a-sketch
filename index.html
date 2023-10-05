@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header><h1>Etch-a-Sketch</h1></header>
+    <div class="main-container">
+        <div class="control-container">
+            <div class="tool-container">
+                <button id="pencil" class="selected">Pencil</button>
+                <button id="eraser">Eraser</button>
+            </div>
+            <div class="color-pick-container">
+                <label for="pencil-color">Color:</label>
+                <input type="color" id="pencil-color">
+                <input type="color" id="back-color" >
+                <label for="back-color">Background:</label>
+            </div>
+            <button id="line-toggle">Toggle Grid Lines</button>
+            <div class="range-container">
+                <input type="range" id="grid-size" name="grid-size" min="8" max="96" step="2" value="16"> <label for="grid-size">16x16</label>
+                <button id="resize">Resize</button>
+            </div>
+            <button id="clear">Clear</button>
+        </div>
+        <div id="sketch-grid">
+        </div>
+    </div>
+</body>
+</html>
