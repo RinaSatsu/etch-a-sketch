@@ -40,6 +40,13 @@ button:active {
     background-color: var(--primary5);
 }
 
+button:disabled {
+    color: #b6a156;
+    background-color: #ecda97;
+    border-color: #c5b17a;
+    pointer-events: none;
+}
+
 header {
     color: var(--primary5);
     font-weight: bolder;
@@ -60,18 +67,18 @@ label {
 
 .main-container, 
 .control-container,
-.color-pick-container {
+.color-select-container {
     display: flex;
     justify-content: space-between;
 }
 
 .control-container, 
-.color-pick-container {
+.color-select-container {
     flex-direction: column;
 }
 
 .control-container,
-.color-pick-container,
+.color-select-container,
 .range-container {
     align-items: center;
 }
@@ -92,7 +99,7 @@ label {
     gap: 1.5rem;
 }
 
-.color-pick-container {
+.color-select-container {
     gap: 1.5rem;
 }
 
@@ -129,7 +136,9 @@ input[type="color"] {
 }
 
 #pencil, 
-#eraser {
+#eraser, 
+#picker {
+    width: 4.7rem;
     aspect-ratio: 1/1;
 }
 
@@ -141,13 +150,6 @@ input[type="color"] {
 #back-color {
     height: 3rem;
     width: 3rem;
-}
-
-.selected {
-    color: #b6a156;
-    background-color: #ecda97;
-    border-color: #c5b17a;
-    pointer-events: none;
 }
 
 #clear {
