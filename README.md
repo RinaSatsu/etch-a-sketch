@@ -3,6 +3,8 @@ Welcome to the Etch-A-Sketch Web App! This simple web application allows you to 
 
 ![Screenshot](screenshot.png)
 
+*Disclaimer: This README is for the version of the app with a pencil and color picker. The main branch of this project contains the version of the app with a palette feature for managing multiple colors. If you are looking for information on the palette version, please refer to the README of the [main branch](../main).*
+
 ## Motivation
 The motivation behind this project is to practice Front-End Development and demonstrate skills in JavaScript dynamic component generation. This app will offer an interactive platform for drawing and sketching. Whether you're an artist looking for a pixel-art digital canvas or simply want to have fun, this app allows you to express your creativity in a user-friendly environment.
 
