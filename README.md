@@ -48,6 +48,6 @@ The palette feature in this app allows you to have control over multiple colors 
 If you encounter any issues while using the Etch-A-Sketch Web App or have suggestions for improvements, please open an issue on the GitHub repository. Your feedback is valuable and will help make this app even better.
 
 ### Credits
-This project was created with passion by  Maryna Snihurska (aka RinaSatsu). Special thanks to The Odin Project for their idea of this project.
+This project was created with passion by  Maryna Snihurska. Special thanks to The Odin Project for their idea of this project.
 
 Enjoy sketching and drawing with the Etch-A-Sketch Web App!
